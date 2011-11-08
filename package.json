@@ -6,6 +6,9 @@
 , "description": "Shared utility functions for all operatic.js projects"
 , "dependencies": {
   }
+, "directories": {
+    "bin": "./bin"
+  }
 , "engines": {
     "node": "~0.4.7"
   }
