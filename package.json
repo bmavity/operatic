@@ -5,6 +5,7 @@
   ]
 , "description": "Shared utility functions for all operatic.js projects"
 , "dependencies": {
+    "commander": "0.3.2"
   }
 , "directories": {
     "bin": "./bin"
