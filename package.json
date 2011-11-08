@@ -1,0 +1,23 @@
+{
+  "author": "Brian Mavity <brian@brianmavity.com> (http://www.brianmavity.com)"
+, "contributors": [
+    "Brian Mavity <brian@brianmavity.com> (http://www.brianmavity.com)"
+  ]
+, "description": "Shared utility functions for all operatic.js projects"
+, "dependencies": {
+  }
+, "engines": {
+    "node": "~0.4.7"
+  }
+, "keywords": [
+    "templating"
+  ]
+, "main": "./lib/operatic.js"
+, "name": "operatic"
+, "repository": {
+    "type": "git"
+  , "url": "git://github.com/bmavity/operatic.git"
+  }
+, "version": "0.0.1"
+}
+
