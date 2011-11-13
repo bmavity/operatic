@@ -1,9 +1,9 @@
 var connect = require('connect')
-  , operatic = require('../lib/middleware')
+  , operatic = require('../')
   ;
 
 connect(
-  operatic({})
+  operatic.middleware()
 , connect.static(__dirname)
 ).listen(process.env.PORT || 8000);
 
