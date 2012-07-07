@@ -15,7 +15,7 @@ program.on('--create', function() {
   var inputPath = path.join(templateFolder, 'template.html')
     , outputPath = path.join(process.cwd(), program.create)
     ;
-  if(path.existsSync(inputPath) && !path.existsSync(outputPath)) {
+  if(fs.existsSync(inputPath) && !fs.existsSync(outputPath)) {
     util.pump(fs.createReadStream(inputPath), fs.createWriteStream(outputPath), function(err) {
       console.log(err);
     })
